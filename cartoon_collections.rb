@@ -8,8 +8,8 @@ end
 
 def summon_captain_planet(arr)# code an argument here
   # Your code here
-  final = arr.collect do |eles|
-    eles[0].upcase + ele[1..-1]+"!"
+  final = arr.collect do |ele|
+    ele[0].upcase + ele[1..-1]+"!"
   end
   return final
 end
