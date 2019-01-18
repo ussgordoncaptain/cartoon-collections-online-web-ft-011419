@@ -9,7 +9,7 @@ end
 def summon_captain_planet(arr)# code an argument here
   # Your code here
   final = arr.collect do |eles|
-    
+    eles[0].
   end
   return final
 end
